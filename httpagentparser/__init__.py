@@ -679,5 +679,5 @@ def simple_detect(agent):
     if browser_version:
         browser = " ".join((browser, browser_version))
     if os_version:
-        os = " ".join((os, os_version))
+        os = " ".join((os, os_version)) 
     return os, browser
